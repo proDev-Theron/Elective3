@@ -6,7 +6,7 @@ imshow(inputImage);
 imfinfo ("sunflower.jpg");
 
 %2. Rewrite the filename
-imwrite(f, 'sunflower2.png', 'png');
+imwrite(inputImage, 'sunflower2.png', 'png');
 
 %3. Convert RGB True Clor image to Grayscale
 convertedImage = rgb2gray(inputImage);
